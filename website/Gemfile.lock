@@ -51,10 +51,12 @@ GEM
     multi_json (1.13.1)
     multi_test (0.1.2)
     multi_xml (0.6.0)
+    nokogiri (1.10.3)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.3-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     public_suffix (3.1.1)
-    rack (2.0.7)
+    rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rake (12.3.3)
@@ -82,6 +84,7 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
